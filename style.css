@@ -42,32 +42,33 @@
 
 #putNumbers {
     display: flex;
+    flex-direction: column;
 }
 
 #inserisci1 {
     font-size: 20px;
     border: 1px solid black;
-    padding: 14px;
+    padding: 5px;
 }
 #inserisci2{
     font-size: 20px;
     border: 1px solid black;
-    padding: 14px;
+    padding: 5px;
 }
 #inserisci3 {
     font-size: 20px;
     border: 1px solid black;
-    padding: 14px;
+    padding: 5px;
 }
 #inserisci4 {
     font-size: 20px;
     border: 1px solid black;
-    padding: 14px;
+    padding: 5px;
 }
 #inserisci5 {
     font-size: 20px;
     border: 1px solid black;
-    padding: 14px;
+    padding: 5px;
 }
 
 .block {
