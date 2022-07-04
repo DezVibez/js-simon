@@ -1,5 +1,9 @@
 
-
+#count {
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 5px;
+}
 
 #memorize {
     display: flex;
@@ -30,5 +34,43 @@
     font-size: 20px;
     border: 1px solid black;
     padding: 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+#putNumbers {
+    display: flex;
+}
+
+#inserisci1 {
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 14px;
+}
+#inserisci2{
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 14px;
+}
+#inserisci3 {
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 14px;
+}
+#inserisci4 {
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 14px;
+}
+#inserisci5 {
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 14px;
+}
+
+.block {
+    display: block
 }
 
