@@ -45,7 +45,7 @@ console.log(target1.innerText,target2.innerText,target3.innerText,target4.innerT
 
 
 //timing function
-let seconds = 5
+let seconds = 30
 const countdown = setInterval(function() {
 
     if(seconds === 0){
@@ -59,7 +59,7 @@ const countdown = setInterval(function() {
         count.classList.add("hidden")
         titolo.innerText = ("Ti ricordi i numeri?")
 
-        ////quando il tempo finisce crea degli input per inserire i dati
+        //quando il tempo finisce crea degli input per inserire i dati
         inserisci1.classList.add("block")
         inserisci2.classList.add("block")
         inserisci3.classList.add("block")
@@ -75,7 +75,7 @@ const countdown = setInterval(function() {
 //ascolta evento al bottone
  
 button.addEventListener("click", function()
-{
+{   //se il valore inserito è uguale ai random numbers stampati nel dom allora ho vinto, ne basta uno sbagliato per perdere la partita
     if (inserisci1.value == target1.innerText && 
         inserisci2.value == target2.innerText &&
         inserisci3.value == target3.innerText && 
